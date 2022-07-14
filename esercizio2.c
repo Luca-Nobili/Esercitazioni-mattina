@@ -26,6 +26,6 @@ int  main (){
 
 	/*il risultato della media stampato a video*/
 
-	printf("La media dei due numeri è: %f", calcolomedia);
+	printf("La media dei due numeri è: %1.1f", calcolomedia);
 
 }
