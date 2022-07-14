@@ -1,25 +1,21 @@
 #include <stdio.h>
 
 int main(){
-        //Dichiarazioni variabili
+        /*Dichiarazioni variabili*/
 	int numero;
 	int numeroIncrementato;
 	int numeroDecrementato;
        
-	 // Insserimeneto numero da incrementare e decrementare
+	 /* Richiesta all'utente di un numero */
 	printf("Inserisci numero \n");
-	scanf("%d" , & numero);
+	scanf("%d" , &numero);
 	
-	//Operazione incremento
+	/* Calcolo incremento/decremento*/
         numeroIncrementato= numero +1;
-	
-	//Stampo a video incremento
-	printf("Numero incrementato: %d\n", numeroIncrementato);
-	
-	//Operazione decremento
 	numeroDecrementato= numero -1;
 
-	//Stampa a video decremento
+	/* Operzione di stampa a video*/
+	printf("Numero incrementato: %d\n", numeroIncrementato);
 	printf("Numero decrementato: %d\n" , numeroDecrementato);	
 
       	
