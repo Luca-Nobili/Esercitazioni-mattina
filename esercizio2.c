@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 int  main (){
-	//Spiegazione Esercizio
+	/*Spiegazione Esercizio*/
 	printf("Inserire due numeri per calcolo della media \n");
 	        
-       //creazione variabili
+       /*creazione variabili*/
      
 
 	int primonumero;
@@ -13,18 +13,18 @@ int  main (){
 
 
 
-	//inserimento numeri
+	/*inserimento numeri*/
 	printf("Inserisci il  primo Numero: \n");
 	scanf("%d", &primonumero);
 
 	printf("Inserisci il secondo Numero: \n");
 	scanf("%d", &secondonumero);
 
-	//operazione del calcolo della media
+	/*operazione del calcolo della media*/
 
 	calcolomedia = (primonumero + secondonumero)/2;
 
-	//il risultato della media stampato a videp
+	/*il risultato della media stampato a video*/
 
 	printf("La media dei due numeri è: %f", calcolomedia);
 
